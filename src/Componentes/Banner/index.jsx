@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import theme from '../../theme';
+import ImagemBanner from '../ImagemBanner';
 
 const BannerContainer = styled.div`
     display: flex;
@@ -7,7 +8,7 @@ const BannerContainer = styled.div`
     position: relative;
     gap: 30px;
 
-`;
+`
 
 const BannerTexto = styled.div`
     text-align: start;
@@ -48,13 +49,13 @@ const BannerTexto = styled.div`
         margin-top: -300px;
         margin-left: 780px;
     }
-`;
+`
 // font-size: clamp(1.25rem, 2vw, 2.5rem);
 
 function Banner() {
     return (
         <BannerContainer>
-            
+            <ImagemBanner />
             <BannerTexto>
                 <h1>FRONT-END</h1>
                 <h2>SEO com React</h2>
