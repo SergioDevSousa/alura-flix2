@@ -1,5 +1,3 @@
-
-
 const theme = {
     colors: {
         botaoAzul: '#6Bd1FF',

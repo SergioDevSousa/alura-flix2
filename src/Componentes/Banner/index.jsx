@@ -1,4 +1,3 @@
-import ImagemBanner from '../ImagemBanner';
 import styled from 'styled-components';
 import theme from '../../theme';
 
@@ -7,12 +6,13 @@ const BannerContainer = styled.div`
     flex-direction: column;
     position: relative;
     gap: 30px;
+
 `;
 
 const BannerTexto = styled.div`
     text-align: start;
     color: ${theme.colors.botaoAzul};
-    margin-top: -400px; /* Ajuste a posição aqui conforme necessário */
+    margin-top: -400px;
     padding: 0px 40px;
 
     h1{
@@ -49,16 +49,22 @@ const BannerTexto = styled.div`
         margin-left: 780px;
     }
 `;
+// font-size: clamp(1.25rem, 2vw, 2.5rem);
 
 function Banner() {
     return (
         <BannerContainer>
-            <ImagemBanner />
+            
             <BannerTexto>
                 <h1>FRONT-END</h1>
                 <h2>SEO com React</h2>
                 <p>Eu to aqui pra nesse vídeo dizer que a gente vai aprender a começar uma app inspirada no desenho Pokémon com Nextjs e React, ver algumas dicas sobre performance e de quebra conhecer uma plataforma sensacional pra fazer deploy que é a Vercel. Tudo em 22 minutos nesse vídeo feito com todo o carinho do mundo construindo uma "Pokedex"! </p>
-            <ImagemBanner />
+                <img
+                    src='/imagens/player.png'
+                    alt='player'
+                    width='100%'
+                    height='auto'
+                />
             </BannerTexto>
         </BannerContainer>
     );
