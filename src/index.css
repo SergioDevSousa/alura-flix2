@@ -27,3 +27,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /*Fontes */
+  --fonte-primary: 'Roboto', sans-serif;
+  --fonte-inputs: 'Source Sans 3', sans-serif;
+
+  /* Cores que compõe o componente */
+  --dark-grey: #262626;
+  --light-gray: #A5A5A5;
+  --label-color: #FFF;
+  --label-error: #E63935;
+  --color-blue: #2271D1;
+  --color-backend: #00C86F;
+  --color-frontend: #6BD1FF;
+  --color-mobile-gestao: #FFBA05;
+
+  /* Banner */
+  --banner-pass-through-effect: rgba(0, 18, 51, 56%);
+  
+  /* Background e Efeitos */
+  --background-dark-90: rgba(0, 0, 0, 90%);
+  --background-modal-dark-blue: #03122F;
+  --modal-pass-through-effect: rgba(3, 18, 48, 76%);
+
+  --box-shadow-blue-70: rgba(34, 113, 209, 0.70);
+}

@@ -9,6 +9,8 @@ color: #F7F7F7;
 padding: 0rem 1.7rem;
 font-size: 1.2rem;
 
+
+
 &:hover {
     cursor: pointer;
 }
@@ -16,10 +18,10 @@ font-size: 1.2rem;
 
 export { Botao }
 
-const BotaoMenu = ({ children }) => {
+const BotaoMenu = ({ onClick, children }) => {
 
     return (
-        <Botao>
+        <Botao onClick={onClick} >
             {children}
         </Botao>
     )

@@ -7,6 +7,7 @@ const Header = styled.header`
     align-items: center;
     min-height: 10vh;
     background: #262626;
+    border-bottom: solid var(--color-blue);
 `;
 
 const Nav = styled.nav` 
@@ -15,11 +16,13 @@ const Nav = styled.nav`
     justify-content: space-between;
     padding: 0 1.5rem;
     color: #F7F7F7;
+    
 `;
 
 const BotoesWrapper = styled.div`
     display: flex;
     gap: 2rem;
+    
 `;
 
 const Cabecalho = () => {
@@ -30,11 +33,11 @@ const Cabecalho = () => {
                 <ImagemLogo />
                 <BotoesWrapper>
                     <BotaoMenu>
-                        Home
+                        <a style={{textDecoration: "none", color: "white"}}  href='/'>Home</a>
                     </BotaoMenu>
 
                     <BotaoMenu>
-                        Novo Vídeo
+                        <a style={{textDecoration: "none", color: "white"}}  href='/novovideo'>Novo Vídeo</a>
                     </BotaoMenu>
                 </BotoesWrapper>
             </Nav>

@@ -9,6 +9,7 @@ const FooterElement = styled.footer`
     color: #F7F7F7;
     background: #262626;
     min-height: 10vh;
+    border-top: solid var(--color-blue);
 `
 
 

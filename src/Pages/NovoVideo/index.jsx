@@ -1,12 +1,12 @@
-import Cabecalho from "../../Componentes/Cabecalho";
-import Rodape from "../../Componentes/Rodape";
+import { FormNovoVideo } from "../../Componentes/FormNovoVideo";
+
+
 
 
 function NovoVideo() {
     return (
         <>
-            <Cabecalho />
-            <Rodape />
+            <FormNovoVideo />
         </>
 
 
