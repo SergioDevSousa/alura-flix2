@@ -14,11 +14,15 @@ const TagPadrao = styled.div`
         }
     }};
     text-transform: uppercase;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
     color: white;
     width: 27rem;
     height: 1rem;
     padding: 2rem;
     margin-bottom: 1rem;
+    border-radius: 10px;
 `;
 
 const Tag = ({ titulo }) => {

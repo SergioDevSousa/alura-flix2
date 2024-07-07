@@ -5,7 +5,7 @@ import { useState } from 'react';
 const CardTexto = styled.div`
     text-align: center;
     color: white;
-    padding: 30px;
+    padding: 3rem;
 `;
 const CardContainer = styled.div`
     display: flex;
@@ -17,9 +17,9 @@ const CardContainer = styled.div`
 const CardLabel = styled.label`
     color: white;
     display: block;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 `;
 
 
@@ -27,9 +27,9 @@ const CardInput = styled.input`
     border: 2px solid #2271D1;
     border-radius: 10px;
     background-color: transparent;
-    margin-bottom: 30px;
-    padding: 15px;
-    width: 531px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 33rem;
     color: white;
     font-size: 20px;
 `;
@@ -38,21 +38,21 @@ const CardSelect = styled.select`
     border: 2px solid #2271D1;
     border-radius: 10px;
     background-color: transparent;
-    margin-bottom: 30px;
-    padding: 15px;
-    width: 531px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 33rem;
     color: #2271D1;
-    font-size: 20px;
+    font-size: 1.5rem;
 `;
 
 const CardButton = styled.button`
     border: 2px solid white;
     color: white;
     font-size: 18px;
-    width: 180px;
-    padding: 10px;
+    width: 11rem;
+    padding: 1rem;
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 1rem;
 
     &:hover {
         border: 2px solid rgba(34, 113, 209, 1);

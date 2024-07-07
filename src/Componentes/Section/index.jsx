@@ -5,13 +5,14 @@ import VideoCard from "../VideoCard";
 import Tag from "../Tag";
 
 const SectionContainer = styled.section`
-    margin: 20px;
+    margin: 1.5rem;
+    position: relative;
 `;
 
 const VideosContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.5rem;
     justify-content: space-between;
 
     @media (max-width: 767px) {

@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NovoVideo from './Pages/NovoVideo';
 import PaginaPadrao from './Componentes/PaginaPadrao';
 import Home from './Pages/Home';
-import { VideoCard } from './Componentes/VideoCard';
+// import { VideoCard } from './Componentes/VideoCard';
 
 
 function App() {
