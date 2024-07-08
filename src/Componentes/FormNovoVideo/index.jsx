@@ -82,10 +82,6 @@ const LoadingOverlay = styled.div`
     font-size: 24px;
 `;
 
-const handleClear = (form) => {
-    form.reset();
-};
-
 export const FormNovoVideo = () => {
     const [loading, setLoading] = useState(false);
 
@@ -111,6 +107,11 @@ export const FormNovoVideo = () => {
         }
     }
 
+    const handleClear = (form) => {
+        form.reset();
+    };
+
+    
     return (
         <>
             <CardTexto>
@@ -123,18 +124,18 @@ export const FormNovoVideo = () => {
                         <CardLabel htmlFor="categoria">Categoria</CardLabel>
                         <CardSelect id="categoria" name="categoria" required>
                             <option value="">Selecione uma categoria</option>
-                            <option value="front End">Front End</option>
+                            <option value="Front End">Front End</option>
                             <option value="Back End">Back End</option>
                             <option value="Mobile">Mobile</option>
                         </CardSelect>
                     </div>
                     <div>
                         <CardLabel htmlFor="imagem">Imagem</CardLabel>
-                        <CardInput type="url" id="imagem" name="imagem" placeholder="Digite a url de sua imagem..." />
+                        <CardInput type="url" id="imagem" name="imagem" placeholder="Digite a url de sua imagem..." required/>
                     </div>
                     <div>
                         <CardLabel htmlFor="link">Vídeo</CardLabel>
-                        <CardInput type="url" id="link" name="link" placeholder="Digite o link do seu vídeo..." />
+                        <CardInput type="url" id="link" name="link" placeholder="Digite o link do seu vídeo..." required/>
                     </div>
                     <CardButtonSection>
                         <CardButton type="submit" onClick={handleClick}>Guardar</CardButton>

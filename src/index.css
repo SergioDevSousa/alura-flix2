@@ -29,7 +29,7 @@ code {
 }
 
 :root {
-  width: 100vw;
+  
   /*Fontes */
   --fonte-primary: 'Roboto', sans-serif;
   --fonte-inputs: 'Source Sans 3', sans-serif;
